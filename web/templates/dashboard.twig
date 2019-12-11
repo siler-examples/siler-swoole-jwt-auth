@@ -1,0 +1,13 @@
+{% extends "_layout.twig" %}
+
+{% block content %}
+  <article class="dashboard">
+    <div class="container">
+      <section class="username">{{ username }}</section>
+      <section class="logout">
+        <button class="btn" id="logout">Logout</button>
+      </section>
+    </div>
+  </article>
+  <script src="/assets/js/dashboard.js"></script>
+{% endblock %}

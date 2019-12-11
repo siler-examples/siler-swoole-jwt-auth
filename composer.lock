@@ -1,0 +1,372 @@
+{
+  "_readme": [
+    "This file locks the dependencies of your project to a known state",
+    "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+    "This file is @generated automatically"
+  ],
+  "content-hash": "1b2b132eb43374b2d61c767f3367022e",
+  "packages": [
+    {
+      "name": "firebase/php-jwt",
+      "version": "v5.0.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/firebase/php-jwt.git",
+        "reference": "9984a4d3a32ae7673d6971ea00bae9d0a1abba0e"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/firebase/php-jwt/zipball/9984a4d3a32ae7673d6971ea00bae9d0a1abba0e",
+        "reference": "9984a4d3a32ae7673d6971ea00bae9d0a1abba0e",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=5.3.0"
+      },
+      "require-dev": {
+        "phpunit/phpunit": " 4.8.35"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Firebase\\JWT\\": "src"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "BSD-3-Clause"
+      ],
+      "authors": [
+        {
+          "name": "Neuman Vong",
+          "email": "neuman+pear@twilio.com",
+          "role": "Developer"
+        },
+        {
+          "name": "Anant Narayanan",
+          "email": "anant@php.net",
+          "role": "Developer"
+        }
+      ],
+      "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
+      "homepage": "https://github.com/firebase/php-jwt",
+      "time": "2017-06-27T22:17:23+00:00"
+    },
+    {
+      "name": "leocavalcante/siler",
+      "version": "dev-master",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/leocavalcante/siler.git",
+        "reference": "f2ff01ba94b737c54e99ae142483a06acf510f88"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/leocavalcante/siler/zipball/f2ff01ba94b737c54e99ae142483a06acf510f88",
+        "reference": "f2ff01ba94b737c54e99ae142483a06acf510f88",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=7.3"
+      },
+      "require-dev": {
+        "cboden/ratchet": "^0.4.1",
+        "cocur/slugify": "^3.2",
+        "gabordemooij/redbean": "^5.4",
+        "monolog/monolog": "^2.0",
+        "phpunit/phpunit": "^8.4",
+        "squizlabs/php_codesniffer": "^3.5",
+        "swiftmailer/swiftmailer": "^6.2",
+        "swoole/ide-helper": "^4.4",
+        "textalk/websocket": "^1.2",
+        "twig/twig": "^3.0",
+        "vimeo/psalm": "^3.7",
+        "vlucas/phpdotenv": "^3.6",
+        "webonyx/graphql-php": "^0.13",
+        "zendframework/zend-diactoros": "^2.2",
+        "zendframework/zend-httphandlerrunner": "^1.1",
+        "zendframework/zend-stratigility": "^3.2"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Siler\\": "src/"
+        },
+        "files": [
+          "src/Container/Container.php",
+          "src/Diactoros/Diactoros.php",
+          "src/Dotenv/Dotenv.php",
+          "src/Encoder/Json.php",
+          "src/facades.php",
+          "src/File/File.php",
+          "src/Functional/Functional.php",
+          "src/Functional/Monad/Monad.php",
+          "src/GraphQL/GraphQL.php",
+          "src/Http/Http.php",
+          "src/Http/Request.php",
+          "src/Http/Response.php",
+          "src/HttpHandlerRunner/HttpHandlerRunner.php",
+          "src/Mail/SwiftMailer.php",
+          "src/Monolog/Monolog.php",
+          "src/Prelude/Str.php",
+          "src/Prelude/Tuple.php",
+          "src/Ratchet/Ratchet.php",
+          "src/Result/Result.php",
+          "src/Route/Route.php",
+          "src/Siler.php",
+          "src/Stratigility/Stratigility.php",
+          "src/Swoole/Swoole.php",
+          "src/Twig/Twig.php"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "leocavalcante",
+          "email": "lc@leocavalcante.com"
+        }
+      ],
+      "description": "Siler is a set of general purpose high-level abstractions aiming an API for declarative programming in PHP.",
+      "keywords": [
+        "api",
+        "framework",
+        "functional",
+        "graphql",
+        "micro",
+        "router",
+        "swoole"
+      ],
+      "time": "2019-12-08T16:22:24+00:00"
+    },
+    {
+      "name": "symfony/polyfill-ctype",
+      "version": "v1.13.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git",
+        "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
+        "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=5.3.3"
+      },
+      "suggest": {
+        "ext-ctype": "For best performance"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "1.13-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Symfony\\Polyfill\\Ctype\\": ""
+        },
+        "files": [
+          "bootstrap.php"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Gert de Pagter",
+          "email": "BackEndTea@gmail.com"
+        },
+        {
+          "name": "Symfony Community",
+          "homepage": "https://symfony.com/contributors"
+        }
+      ],
+      "description": "Symfony polyfill for ctype functions",
+      "homepage": "https://symfony.com",
+      "keywords": [
+        "compatibility",
+        "ctype",
+        "polyfill",
+        "portable"
+      ],
+      "time": "2019-11-27T13:56:44+00:00"
+    },
+    {
+      "name": "symfony/polyfill-mbstring",
+      "version": "v1.13.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git",
+        "reference": "7b4aab9743c30be783b73de055d24a39cf4b954f"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7b4aab9743c30be783b73de055d24a39cf4b954f",
+        "reference": "7b4aab9743c30be783b73de055d24a39cf4b954f",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=5.3.3"
+      },
+      "suggest": {
+        "ext-mbstring": "For best performance"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "1.13-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Symfony\\Polyfill\\Mbstring\\": ""
+        },
+        "files": [
+          "bootstrap.php"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Nicolas Grekas",
+          "email": "p@tchwork.com"
+        },
+        {
+          "name": "Symfony Community",
+          "homepage": "https://symfony.com/contributors"
+        }
+      ],
+      "description": "Symfony polyfill for the Mbstring extension",
+      "homepage": "https://symfony.com",
+      "keywords": [
+        "compatibility",
+        "mbstring",
+        "polyfill",
+        "portable",
+        "shim"
+      ],
+      "time": "2019-11-27T14:18:11+00:00"
+    },
+    {
+      "name": "twig/twig",
+      "version": "v3.0.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/twigphp/Twig.git",
+        "reference": "9b58bb8ac7a41d72fbb5a7dc643e07923e5ccc26"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/twigphp/Twig/zipball/9b58bb8ac7a41d72fbb5a7dc643e07923e5ccc26",
+        "reference": "9b58bb8ac7a41d72fbb5a7dc643e07923e5ccc26",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^7.2.9",
+        "symfony/polyfill-ctype": "^1.8",
+        "symfony/polyfill-mbstring": "^1.3"
+      },
+      "require-dev": {
+        "psr/container": "^1.0",
+        "symfony/debug": "^3.4|^4.2|^5.0",
+        "symfony/phpunit-bridge": "^4.4@dev|^5.0"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "3.0-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Twig\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "BSD-3-Clause"
+      ],
+      "authors": [
+        {
+          "name": "Fabien Potencier",
+          "email": "fabien@symfony.com",
+          "homepage": "http://fabien.potencier.org",
+          "role": "Lead Developer"
+        },
+        {
+          "name": "Twig Team",
+          "homepage": "https://twig.symfony.com/contributors",
+          "role": "Contributors"
+        },
+        {
+          "name": "Armin Ronacher",
+          "email": "armin.ronacher@active-4.com",
+          "role": "Project Founder"
+        }
+      ],
+      "description": "Twig, the flexible, fast, and secure template language for PHP",
+      "homepage": "https://twig.symfony.com",
+      "keywords": [
+        "templating"
+      ],
+      "time": "2019-11-15T20:38:32+00:00"
+    }
+  ],
+  "packages-dev": [
+    {
+      "name": "swoole/ide-helper",
+      "version": "4.4.12",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/swoole/ide-helper.git",
+        "reference": "915964abd1ff4fe78be3e341ce9008b6d6a7648a"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/swoole/ide-helper/zipball/915964abd1ff4fe78be3e341ce9008b6d6a7648a",
+        "reference": "915964abd1ff4fe78be3e341ce9008b6d6a7648a",
+        "shasum": ""
+      },
+      "require-dev": {
+        "squizlabs/php_codesniffer": "~3.4.0",
+        "symfony/filesystem": "~4.3.0",
+        "zendframework/zend-code": "~3.3.0"
+      },
+      "type": "library",
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "Apache-2.0"
+      ],
+      "authors": [
+        {
+          "name": "Team Swoole",
+          "email": "team@swoole.com"
+        }
+      ],
+      "description": "IDE help files for Swoole.",
+      "time": "2019-11-04T17:53:06+00:00"
+    }
+  ],
+  "aliases": [],
+  "minimum-stability": "stable",
+  "stability-flags": {
+    "leocavalcante/siler": 20
+  },
+  "prefer-stable": false,
+  "prefer-lowest": false,
+  "platform": {
+    "php": ">=7.4"
+  },
+  "platform-dev": []
+}

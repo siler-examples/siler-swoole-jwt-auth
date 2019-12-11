@@ -1,0 +1,13 @@
+version: '3'
+services:
+  servers:
+    container_name: siler_swoole_jwt_auth
+    image: leocavalcante/dwoole:dev
+    volumes:
+      - ./:/app
+    ports:
+      - 8000:8000 # website
+      - 3000:3000 # api
+    environment:
+      ENTRY_POINT_FILE: /app/bin/servers.php
+      APP_KEY: mamão
